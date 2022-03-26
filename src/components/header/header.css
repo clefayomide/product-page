@@ -60,7 +60,7 @@
   text-align: center;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1500px) {
   .product-header-nav-menu {
     display: none;
   }

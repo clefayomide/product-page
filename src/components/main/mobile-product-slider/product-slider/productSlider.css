@@ -83,7 +83,7 @@
   font-weight: bold;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1500px) {
   .product-wrapper {
     width: 90%;
     height: 100vh;

@@ -85,7 +85,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1500px) {
   .cart-container-wrapper {
     display: flex;
     justify-content: flex-end;
