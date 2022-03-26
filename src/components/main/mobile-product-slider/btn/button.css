@@ -22,7 +22,7 @@
   margin-left: 10px;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1500px) {
   .btn-add-to-cart {
     width: 55%;
   }
