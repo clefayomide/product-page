@@ -1,0 +1,35 @@
+.btn-add-to-cart {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background-color: hsl(26, 100%, 55%);
+  cursor: pointer;
+}
+.btn-cart-icon,
+.btn-text {
+  color: white;
+  font-weight: bolder;
+}
+
+.btn-text {
+  margin-left: 10px;
+}
+
+@media (max-width: 1300px) {
+  .btn-add-to-cart {
+    width: 55%;
+  }
+}
+
+@media (max-width: 700px) {
+  .btn-add-to-cart {
+    width: 100%;
+  }
+}

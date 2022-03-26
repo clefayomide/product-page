@@ -1,0 +1,133 @@
+.product-header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: hsl(223, 64%, 98%);
+}
+
+.product-header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  height: 50px;
+}
+
+.product-header-nav-menu-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  cursor: pointer;
+}
+
+.product-header-nav-cart {
+  margin-right: 20px;
+}
+
+.product-header-nav-avatar {
+  width: 30px;
+  height: 30px;
+  object-fit: fit;
+}
+
+.product-header-nav-cart-avatar-container {
+  display: flex;
+  align-items: center;
+}
+
+.product-header-nav-desktop-list {
+  color: hsl(219, 9%, 45%);
+  font-weight: 400;
+}
+
+.product-header-nav-car-length-container {
+  cursor: pointer;
+  position: relative;
+}
+
+.product-header-cart-length {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  width: 16px;
+  height: 14px;
+  border-radius: 30%;
+  font-size: small;
+  background-color: hsl(26, 100%, 55%);
+  text-align: center;
+}
+
+@media (max-width: 1300px) {
+  .product-header-nav-menu {
+    display: none;
+  }
+
+  .product-header-nav-logo {
+    margin-left: 0;
+  }
+
+  .product-header-nav-menu-logo-container {
+    width: 70%;
+  }
+
+  .product-header-nav-desktop-container {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    list-style: none;
+  }
+
+  .nav {
+    height: 30px;
+  }
+}
+
+@media (max-width: 912px) {
+  .product-header-nav-menu {
+    display: none;
+  }
+
+  .product-header-nav-logo {
+    margin-left: 0;
+  }
+
+  .product-header-nav-desktop-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .product-header-nav-menu-logo-container {
+    width: 90%;
+  }
+
+  .nav {
+    height: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .product-header-nav-menu {
+    display: inline-block;
+  }
+
+  .product-header-nav-logo {
+    margin-left: 20px;
+  }
+
+  .product-header-nav-desktop-container {
+    display: none;
+  }
+
+  .nav {
+    height: auto;
+  }
+  .product-header-nav-menu-logo-container {
+    width: 70%;
+  }
+}
